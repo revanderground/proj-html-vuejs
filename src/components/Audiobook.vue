@@ -29,8 +29,32 @@
                 
             </div>
 
-            <div class="right-side-banner text-center col-6">
+            <div class="right-side-banner col-6">
+
+                <div class="text-center right-side-banner-text">
                 
+                    <div class="audiobook-text">
+                        <div class="title py-2">New Audiobook</div>
+                        <div class="subtitle py-2">NO TIME TO READ? NO PROBLEM. LISTEN TO IT</div>
+                        <div class="description py-2">Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.</div>              
+                    </div>
+
+                    <div class="audiobook-logos text-center">
+
+                        <div class="audiobook-logo-box px-2">
+                            <img class="audiobook-logo" src="../assets/img/audible-logo.png" alt="logo-store">
+                        </div>
+                        <div class="audiobook-logo-box  px-3">
+                            <img class="audiobook-logo" src="../assets/img/bn-logo-tall.png" alt="logo-store" >
+                        </div>
+                        <div class="audiobook-logo-box  px-3">
+                            <img class="audiobook-logo" src="../assets/img/kindle-logo-tall.png" alt="logo-store" >
+                        </div>
+
+                    </div>
+
+                </div>
+               
             </div>
         </div>
 

@@ -32,10 +32,9 @@
 }
 
 .container-elements{
-    width:100%;
+    width:80%;
     margin: 0 auto;
    
-
 }
 
 .iphone{
@@ -43,4 +42,46 @@
     position:absolute;
     bottom: 0px;
     left: 280px;
+}
+
+
+.audiobook-text{
+    padding-left: 30px;
+    padding-top: 110px;
+   
+}
+
+.title{
+    color:white;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.subtitle{
+    color:$Saffron;
+    font-size: 0.78em;
+    font-weight: 600;
+    font-family: 'Urbanist'
+}
+
+.description{
+    color: $OsloGray;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-family: 'Urbanist'
+}
+
+.right-side-banner-text{
+    width:65%;
+}
+.audiobook-logos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30px;
+}
+
+.audiobook-logo{
+    height:30px;
 }
