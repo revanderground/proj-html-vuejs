@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600&family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .active{
     color: #E9BF61;
     border-top: 5px solid #E9BF61;
     text-shadow: 1px 1px 2px rgb(43, 43, 43); 
+}
+
+.my-button{
+    font-size: 0.6em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    width:120px;
+    height: 30px;
+    padding: 7px 8px;
+    color:white;
+    background-color: #49A987;
+    border-radius: 4px;
 }
 
 

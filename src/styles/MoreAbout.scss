@@ -1,0 +1,30 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss'; 
+
+.more-about{
+    height: 500px;
+
+}
+.title{
+    color:$Saffron;
+    font-size: 4rem;
+    font-family: 'Kristi', cursive;
+}
+
+.description{
+    font-family: 'Urbanist';
+    font-size: 1.25rem;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.my-button{
+    margin: 0 auto;
+}
+
+.container-more{
+    padding: 100px;
+    
+}

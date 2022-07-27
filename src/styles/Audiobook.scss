@@ -1,0 +1,21 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss'; 
+
+.logos-container{
+    padding-top: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.online-stores-logos{
+    background-color: #FEF7E9;
+    height: 150px;
+}
+
+
+.logo-store{
+   height: 48px;
+}
+

@@ -9,7 +9,7 @@
     border-width: 0px;
     border-style: solid;
     background-size: cover;
-    height: 100vh;
+    height: 600px;
 
 
     //topbar
@@ -61,7 +61,7 @@
 
 //content box
 .content-box{
-    height:calc(100% - 100px);
+    height:calc(600px - 100px);
 }
 
 .left-box{
@@ -111,7 +111,7 @@
     bottom:0 ;
     right: 0;
     background-color: white;
-    height: 60%;;
+    height: 350px;
     width: 90%;
 }
 
