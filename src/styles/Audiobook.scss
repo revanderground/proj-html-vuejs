@@ -1,6 +1,7 @@
 @import './viarables.scss';
 @import '~bootstrap/scss/bootstrap.scss'; 
 
+//logos section
 .logos-container{
     padding-top: 50px;
     display:flex;
@@ -19,3 +20,27 @@
    height: 48px;
 }
 
+//Banner section
+
+.banner{
+    background: rgb(0,0,0);
+    background: linear-gradient(83deg, rgba(0,0,0,0.051324753534226164) 65%, rgba(0,0,0,1) 79%, rgba(5,5,5,1) 94%), linear-gradient(180deg, rgba(0,0,0,0.30) 29%, rgba(0,0,0,0.74) 57%, rgba(5,5,5,1) 83%),  url('../assets/img/banner.jpg');
+    height: 380px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.container-elements{
+    width:100%;
+    margin: 0 auto;
+   
+
+}
+
+.iphone{
+    height: 340px;
+    position:absolute;
+    bottom: 0px;
+    left: 280px;
+}
