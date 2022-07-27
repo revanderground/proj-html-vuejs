@@ -11,6 +11,8 @@
     background-size: cover;
     height: 100vh;
 
+
+    //topbar
     .topbar-container{
         max-width: 88%;
         border: 1px solid red;
@@ -58,10 +60,14 @@
 
 }
 
+//content box
 .content-box{
     height:calc(100% - 100px);
 }
 
+.left-box{
+    width: 60%;
+}
 .left-box, .right-box {
     height:100%;
 }
@@ -96,14 +102,17 @@
 
 .right-box{
     position: relative;
+    width:40%;
     
 }
+
+//widget area
 .widget-box{
     position: absolute;
     bottom:0 ;
     right: 0;
     background-color: white;
-    height:calc (100vh / 2);
+    height: 60%;;
     width: 90%;
 }
 
@@ -131,3 +140,51 @@
     font-family: 'Urbanist', sans-serif;
     font-weight: 500;
 }
+
+.buy-buttons-box{
+    width: 100%;
+    height: 40px;
+ 
+}
+
+.button-left, .button-right{
+    font-size: 0.7em;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    width:50%;
+    height: 100%;
+    padding-top: 12.5px;
+    background-color: #F5FCFA;
+    
+}
+
+.button-left{
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #ADD6C8;
+}
+
+.button-right{
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #ADD6C8;
+    border-left: none;
+}
+
+
+
+div.button-left:hover {
+    background-color: $Keppel;
+    color: white;
+    cursor: pointer;
+}
+
+div.button-right:hover {
+    background-color: $Keppel;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+

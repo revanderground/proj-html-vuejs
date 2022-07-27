@@ -24,8 +24,8 @@
                 </div>
 
                 
-                <div class="content-box row">
-                    <div class="left-box col-7">
+                <div class="content-box d-flex">
+                    <div class="left-box">
 
                         <div class="jumbotron-text">
                             <div class="jumbotron-name">
@@ -47,7 +47,7 @@
 
                     </div>
 
-                    <div class="right-box col-5">
+                    <div class="right-box">
                         <div class="widget-box p-5">
                             <div class="widget d-flex">
                                 <div class="widget-img-box">
@@ -68,13 +68,26 @@
                                     </div>
 
                                 </div>
-                            
+
                             </div>
                             
-                            
+                            <div class="buy-buttons-box d-flex">
+                                <div class="button-left  text-center">
+                                    <div>
+                                        <i class="fa-brands fa-amazon btn-widget px-1"></i>Buy On Amazon
+                                    </div>
+                                    
 
+                                </div>
 
+                                <div class="button-right text-center">
+                                    <div>
+                                        <i class="fa-brands fa-apple btn-widget px-1"></i>Buy on Appstore
+                                    </div>
+                                </div>
 
+                                
+                            </div>
 
                         
 
