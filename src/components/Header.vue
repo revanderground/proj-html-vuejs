@@ -89,8 +89,22 @@
                                 
                             </div>
 
-                        
+                           
 
+                        </div>
+
+                         <div class="square text-center pt-2">
+                            <div><i class="square-icon fa-solid fa-folder-open"></i></div>
+                            <div class="text-square">Demos</div>
+                        </div>
+
+                        <div class="square2 text-center pt-1">
+                            <div class="square2-price d-flex justify-content-center">
+                                <div class="square2-dollar">$</div>
+                                <div>39</div>
+                            
+                            </div>
+                            <div class="text-square">On Sale</div>
                         </div>
                       
 

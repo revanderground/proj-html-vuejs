@@ -15,7 +15,6 @@
     //topbar
     .topbar-container{
         max-width: 88%;
-        border: 1px solid red;
         height: 100px;
         margin: 0 auto;
 
@@ -183,8 +182,46 @@ div.button-right:hover {
     cursor: pointer;
 }
 
+.square{
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    top: 20px;
+    right: 8px;
+}
 
+.square2{
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    top: 66px;
+    right: 8px;
+}
 
+.text-square{
+    font-size: 0.6em;
+    text-align: center;
+    font-family: 'Urbanist';
+    font-weight: 600;
+    color:$Merlin;
+}
 
+.square-icon{
+    font-size: 0.9em;
+    color:$Merlin;
+}
 
-
+.square2-price{
+    font-size: 1.2em;
+    color: $FontainBlue;
+}
+.square2-dollar{
+    font-size: 0.6em;
+    
+    color: $FontainBlue;
+   
+}
