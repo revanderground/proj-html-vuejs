@@ -7,15 +7,82 @@
                         <img class="logo" src="../assets/img/author-logo-round-small.png" alt="logo">
                     </div>
 
-                    <nav class="navbar">
-                        <ul class="d-flex justify-content-end">
-                            <li class="text-center px-3" v-for="(element, index) in navbarElements" :key="index" :class="{ active: element.current}">
+                    <nav class="top-navbar">
+                        <ul class="navbar-list d-flex justify-content-end ">
+                            <li class="list-element text-center mx-3 py-2" v-for="(element, index) in navbarElements" :key="index" :class="{ active: element.current}">
                             <a :href="element.url">{{element.text}}</a>
+                            </li>
+                            <li class="list-element text-center mx-3 py-2">
+                             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                             </li>
                             
                         </ul>
 
                     </nav>
+
+
+                </div>
+
+                
+                <div class="content-box row">
+                    <div class="left-box col-7">
+
+                        <div class="jumbotron-text">
+                            <div class="jumbotron-name">
+                                Damon Vaughn
+                            </div>
+                            <div class="jumbotron-description py-3">
+                                Best-selling author and the most influential pubblic intellectual in the western world right now.
+                            </div>
+                            <div class="jumbotron-author">
+                                - The New York Times
+                            </div>
+
+                            <div class="buttons-carousel">
+                                <button ></button>
+                            </div>
+
+                        </div>
+                       
+
+                    </div>
+
+                    <div class="right-box col-5">
+                        <div class="widget-box p-5">
+                            <div class="widget d-flex">
+                                <div class="widget-img-box">
+                                    <img class="widget-img" src="../assets/img/book-widget.png" alt="">
+                                </div>
+                                <div class="widget-text">
+                                    
+                                    <div class="widget-title py-2">
+                                        Latest Book Release
+                                    </div>
+                                    
+                                    <div class="widget-subtitle py-1">
+                                        D. VAUGHN AUTOBIOGRAPHY
+                                    </div>
+                                    
+                                    <div class="widget-description py-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sit voluptatum aliquam ipsam optio, nisi saepe, eius non quo.
+                                    </div>
+
+                                </div>
+                            
+                            </div>
+                            
+                            
+
+
+
+
+                        
+
+                        </div>
+                      
+
+                    </div>
+
                 </div>
                 
 
@@ -58,20 +125,16 @@ export default {
                     current: false,
                 },
                 {
-                    text: 'Collectibles',
-                    url: '#',
-                    current: false,
-                },
-                {
                     text: 'Shops',
                     url: '#',
                     current: false,
                 },
                 {
-                    text: 'Contact Me',
+                    text: 'Contact Me', 
                     url: '#',
                     current: false,
                 },
+          
           
             ]
         }
@@ -83,34 +146,10 @@ export default {
 
 <style lang="scss" scoped>
 
-    .jumbotron{
-        @import '../styles/style.scss'; 
-        @import '~bootstrap/scss/bootstrap.scss';       
-        
-        background-image: linear-gradient(0deg, rgba(0,0,0,0.7375992633381477) 0%, rgba(0,0,0,0.5163107479319853) 55%, rgba(119,119,119,0.21098861908044464) 100%), url('../assets/img/hero-07-2x.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
-        border-width: 0px;
-        border-style: solid;
-        background-size: cover;
-        height: 100vh;
-
-        .topbar-container{
-            max-width: 88%;
-            border: 1px solid red;
-            height: 100px;
-            margin: 0 auto;
+    @import '../styles/style.scss'; 
+    @import '../styles/viarables.scss';
+    @import '../styles/Header.scss'
  
-        }
-    }
-    
-    .logo{
-        height: 130px;
-    }
-
-    li{
-        list-style-type: none;
-    }
     
 
 </style>
