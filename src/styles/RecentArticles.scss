@@ -74,12 +74,24 @@
 
 }
 
-
-.featured-image{
+.featured-image-box{
     width: 100%;
     padding:8%;
 }
 
+
+.featured-image{
+    width: 100%;
+
+}
+
+.featured-description{
+    font-family: 'Urbanist';
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: darkslategrey;
+}
 
 
 //side cards
@@ -108,12 +120,12 @@
 
 .date{
     color:$SuvaGray;
-    font-size: 0.6em;
+    font-size: 0.65rem;
     font-family: 'Urbanist';
 }
 
 .comments{
-    font-size: 12px;
+    font-size: 0.65rem;
     font-weight: 500;
     font-family: 'Urbanist';
     color:black;

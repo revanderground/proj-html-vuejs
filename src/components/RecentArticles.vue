@@ -28,7 +28,24 @@
             <div class="featured_card">
                 <div class="featured-image-box">
                     <img class="featured-image" src="../assets/img/20-Tips-800x471.jpg" alt="">
+                
+                    <div class="card-title pt-2">
+                        20 Creativity Tips
+                    </div>
+
+                    <div class="date">
+                        By admin | October 24th, 2019<span class="comments"> | Categories: Event, Tips & Tricks </span>
+                    </div>
+
+                    <div class="featured-description">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet.
+                    </div>
+                
                 </div>
+
+           
+
+
 
 
             </div>
@@ -43,12 +60,12 @@
                         <img class="card-image" :src="require('../assets/img/' + card.image)"  >
                     </div>
                     
-                    <h3 class="card-title pt-2">
+                    <div class="card-title pt-2">
                         {{card.title}}
-                    </h3>
+                    </div>
 
                     <div class="date">
-                        {{card.date}}, <span class="comments"> {{card.comemnts}} </span>
+                        {{card.date}}, <span class="comments">| {{card.comments}} </span>
                     </div>
 
                 </div>    
@@ -82,7 +99,7 @@ export default {
 
                 {
                     title: `Instanbul travel Guide`,
-                    author: 'October 24th, 2019',
+                    date: 'October 24th, 2019',
                     comments: '0 Comments',
                     image: 'thumb-08-2x-700x441.jpg'
                 },
