@@ -2,12 +2,12 @@
     <div id="Events">
         <div class="container-events">
 
-            <div class="events-details text-center">
+            <div class="events-details text-center pt-3">
                 <h2 class="section-title">
                     Upcoming Events
                 </h2>
 
-                 <h4 class="section-subtitle py-1">
+                 <h4 class="section-subtitle py-1 pb-3">
                    MEET THE AUTHOR IN PERSON
                  </h4>
 

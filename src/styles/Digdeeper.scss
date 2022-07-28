@@ -1,0 +1,83 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.containerdigs{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size: 27px;
+    font-weight: 600;
+}
+.section-subtitle{
+    color: #49A987 ;
+    font-family: 'Urbanist';
+    font-size: 13px;
+    font-weight: 600;
+}
+.cards-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgcard-box{
+    width:100%;
+    position:relative;
+}
+
+.card-image{
+    width:92%;
+    height: 350px;
+    transition: all 0.6s;
+    object-fit: cover;
+    border-radius: 0px 0px 50px 0px;
+    filter: opacity(75%) drop-shadow(-1px -2px 3px #000000);
+    -webkit-filter: opacity(75%) drop-shadow(-1px -2px 3px #000000);
+    -moz-filter: opacity(75%) drop-shadow(-1px -2px 3px #000000);
+    transform: scale(1);
+  
+  
+}
+
+.card-image:hover{
+    filter:  brightness(50%);
+    cursor: pointer;
+    transform: scale(1.025) perspective(1px)
+
+}
+
+.card-info{
+    padding: 25px;
+    background-color: transparent;
+    position:absolute;
+    bottom: 10px;
+    left: 40px;
+}
+
+.card-title{
+    font-family: 'Urbanist';
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color:white;
+    
+}
+
+.breakline{
+    width:15%;
+    margin: 0 auto;
+    border-bottom: 1.1px solid rgba($color: $OsloGray, $alpha: 0.9);
+}
+
+.card-description{
+    font-family: 'Urbanist';
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: #f3b329;
+    text-shadow: 1px 1px 2px rgb(43, 43, 43);
+}
+
