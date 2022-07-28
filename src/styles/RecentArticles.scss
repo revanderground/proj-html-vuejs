@@ -1,0 +1,126 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss'; 
+
+
+#recent-articles{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    background-color: #FEF7E9;
+    height: 100%;
+}
+
+.master-container{
+    width:75%;
+    margin: 0 auto;
+}
+
+
+//top-elements
+.my-button{
+    color:white;
+    background-color: $Saffron;
+    padding: 7px 23px !important;
+    width: 160px  !Important;
+    font-size: 0.65em !Important;
+    
+}
+
+.my-button:hover{
+    background-color: $Anzac;
+    cursor: pointer;
+}
+
+
+
+.info-title{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.info-subtitle{
+    font-size: 0.7em;
+    font-weight: 500;
+    color:#4FA989;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+//bottom elements
+
+
+
+.bottom-elements{
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.left-side{
+    width: 68%;
+}
+
+.right-side{
+    width:32%;
+}
+
+//featured-card
+
+.featured_card{
+    width:92%;
+    height: 100%;
+    background: white;
+
+}
+
+
+.featured-image{
+    width: 100%;
+    padding:8%;
+}
+
+
+
+//side cards
+
+
+.card-box{ 
+    width: 100%;
+    background-color: white;
+    padding: 8%;
+    height: 100%;
+}
+
+.card-image-box{
+    background-color: white;
+}
+
+.card-title{
+    font-weight: 400;
+    font-family: 'Urbanist';
+    font-size: 18px;
+}
+
+.card-image{
+    width:100%;
+}
+
+.date{
+    color:$SuvaGray;
+    font-size: 0.6em;
+    font-family: 'Urbanist';
+}
+
+.comments{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Urbanist';
+    color:black;
+    transition: all 0.5s;
+}
+
+.company:hover{
+    color: $Saffron;
+    cursor: pointer;
+}
