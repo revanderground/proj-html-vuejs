@@ -1,0 +1,13 @@
+@import './utilities.scss';
+
+.jumbotron{
+    @import '~bootstrap/scss/bootstrap.scss'; 
+    background-image: url('../assets/img/footer-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: solid;
+    background-size: cover;
+    height: 400px;
+
+}
