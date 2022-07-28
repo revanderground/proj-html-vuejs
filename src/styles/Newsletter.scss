@@ -1,0 +1,64 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss'; 
+
+.splash{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 15%, rgba(0,0,0,0.4) 25%),  url('../assets/img/banner-2.jpg');
+    height: 380px;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.newsletter-container{
+    margin: 0 auto;
+    width:30%;
+}
+
+
+
+.input-email{
+    width:100%;
+    height: 37px;
+    padding:12px 20px;
+    font-size: 0.7em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+}
+
+.email-input-box{
+    height: 40px;
+    width:55%
+}
+
+.subscribe-button{
+    font-size: 0.7em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    transition: all 0.28s;
+    background-color: #49A987;
+    color: white;
+    padding-top: 11px;
+
+}
+
+.subscribe-button:hover{
+    color:white;
+    background-color: #357F60;
+    cursor: pointer
+}
+
+.subscribe-button-box{
+    height: 36px;
+    width:35%
+}
+
+.description{
+    color: $OsloGray;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-family: 'Urbanist'
+}

@@ -73,5 +73,4 @@ export default {
 @import '../styles/Audiobook.scss';
 @import '../styles/utilities.scss'
 
-
 </style>

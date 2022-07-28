@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600&family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .active{
     color: #E9BF61;
     border-top: 5px solid #E9BF61;
@@ -19,4 +21,19 @@
 }
 
 
+
+//texts of the banners in Audiobook and Newsletter sections
+
+.title{
+    color:white;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.subtitle{
+    color:#f3b329;
+    font-size: 0.78em;
+    font-weight: 600;
+    font-family: 'Urbanist'
+}
 
