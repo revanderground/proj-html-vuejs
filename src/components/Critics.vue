@@ -1,5 +1,5 @@
 <template>
-  <div class="critics-section">
+  <div class="critics-section mb-5">
 
     <div class="master-container mt-5 px-4">
 
@@ -72,10 +72,10 @@
 
                 <div class="card-info_author d-flex align-items-center">
                     <div class="company-logo-box">
-                        <img class="company-logo" :src="card.logo" >
+                        <img class="company-logo" :src="require('../assets/img/' + card.logo)"  >
                     </div>
 
-                    <div class="author px-3 py-3">
+                    <div class="author px-3 pt-3 pb-2">
                         {{card.author}}, <span class="company"> {{card.company}} </span>
                     </div>
 
@@ -105,7 +105,7 @@ export default {
                     description: 'Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feug at.',
                     author: 'Gerald Hendley',
                     company: 'The Guardian',
-                    logo: '../assets/img/theguardian-xsmall.png'
+                    logo: 'theguardian-xsmall.png'
                 },
 
                 {
@@ -113,7 +113,7 @@ export default {
                     description: 'Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet.',
                     author: 'Mary Maxey',
                     company: 'The Globe And Mail',
-                    logo: '../assets/img/globe-xsmall.png'
+                    logo: 'globe-xsmall.png'
                 },
 
 
