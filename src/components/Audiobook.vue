@@ -24,7 +24,7 @@
         <div class="container-elements d-flex">
             <div class="left-side-banner col-6 text-center">
                 <div class="iphone-box text-center">
-                    <img class="iphone" src="../assets/img/audible-app-2x-600x628.png" alt="iphone"></img>
+                    <img class="iphone" src="../assets/img/audible-app-2x-600x628.png" alt="iphone">
                 </div>
                 
             </div>

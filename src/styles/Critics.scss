@@ -1,0 +1,164 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss'; 
+
+
+.master-container{
+    width:75%;
+    margin: 0 auto;
+}
+
+
+//top-elements
+.my-button{
+    color:white;
+    background-color: $Saffron;
+    padding: 7px 23px !important;
+    width: 160px  !Important;
+    font-size: 0.65em !Important;
+    
+}
+
+.my-button:hover{
+    background-color: $Anzac;
+    cursor: pointer;
+}
+
+
+
+.info-title{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.info-subtitle{
+    font-size: 0.78em;
+    font-weight: 500;
+    color:#50B9C4;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+//bottom elements
+
+
+
+.bottom-elements{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    height: 500px;
+}
+
+.left-side{
+    width: 62%;
+    border: 1px solid red;
+}
+
+.right-side{
+    width:38%;
+    border: 1px solid red;
+}
+
+//featured-card
+
+.featured_card{
+    width:90%;
+    height: 95%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.04) 21%, rgba(0,0,0,0.74) 67%, rgba(5,5,5,1) 90%), url('../assets/img/testimonial2-2x.jpg');
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 0px 0px 50px 0px;
+
+}
+
+.featured_card-text{
+    background-color: transparent;
+    padding: 60px;
+}
+
+.featured_card-title{
+    color:white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    border-bottom: 0.8px solid rgb(232, 232, 232, 0.4);
+}
+
+.featured_card-subtitle{
+    color:white;
+    font-size: 15px;
+    font-family: 'Urbanist';
+
+}
+
+.featured_card-description{
+    color:white;
+    font-size: 12px;
+    font-family: 'Urbanist';
+    line-height: 1.45;
+}
+
+.featured_company-logo{
+    height: 30px;
+}
+
+.featured_author{
+    color:white;
+    font-size: 12px;
+    font-family: 'Urbanist';
+    font-weight: bold;
+}
+
+.featured_company{
+    font-size: 12px;
+    font-family: 'Urbanist';
+    color:#357F60;
+    font-weight: bold;
+}
+
+//side cards
+
+
+.card-text{ 
+    width: 100%;
+    background-color: #FEF7E9;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.card-description{
+    color:$OsloGray;
+    font-size: 12px;
+    font-family: 'Urbanist';
+    line-height: 1.45;
+}
+
+.company-logo{
+    height: 25px;
+}
+
+.author{
+    color:$SuvaGray;
+    font-size: 12px;
+    font-family: 'Urbanist';
+    font-weight: bold;
+}
+
+.company{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Urbanist';
+    color:black;
+    transition: all 0.5s;
+}
+
+.company:hover{
+    color: $Saffron;
+}

@@ -22,6 +22,15 @@
 
 .my-button{
     margin: 0 auto;
+    color:white;
+    background-color: #49A987;
+}
+
+.my-button:hover{
+    margin: 0 auto;
+    color:white;
+    background-color: #357F60;
+    cursor: pointer
 }
 
 .container-more{

@@ -4,7 +4,7 @@
             <div class="jumbotron">
                 <div class="topbar-container d-flex justify-content-between">
                     <div class="box-logo">
-                        <img class="logo" src="../assets/img/author-logo-round-small.png" alt="logo">
+                        <img class="logo" src="../assets/img/nytimes-logo-white-xsmall.png" alt="logo">
                     </div>
 
                     <nav class="top-navbar">
