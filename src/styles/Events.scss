@@ -1,0 +1,61 @@
+@import './viarables.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.container-events{
+    background-color: #FEF7E9;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size: 27px;
+    font-weight: 600;
+}
+.section-subtitle{
+    color: $Saffron;
+    font-family: 'Urbanist';
+    font-size: 13px;
+    font-weight: 600;
+}
+.cards-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgcard-box{
+    width:100%;
+}
+
+.card-image{
+    width:100%;
+    transition: all 0.6s;
+  
+}
+
+.card-image:hover{
+    filter:  brightness(138%) contrast(60%) hue-rotate(18deg);
+    cursor: pointer;
+}
+
+.card-info{
+    padding: 25px;
+    background-color: white;
+}
+
+.card-title{
+    font-family: 'Urbanist';
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 0.8px solid rgba($color: $OsloGray, $alpha: 0.5);
+}
+
+.card-description{
+    font-family: 'Urbanist';
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: darkslategrey;
+}
+

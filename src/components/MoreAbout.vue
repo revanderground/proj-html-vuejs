@@ -1,5 +1,5 @@
 <template>
-    <div class="more-about">
+    <div id="more-about">
         
         <div class="text-center container-more">   
             <div class="title">More About Damon Vaughn</div>

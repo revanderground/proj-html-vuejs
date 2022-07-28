@@ -2,6 +2,11 @@
 @import '~bootstrap/scss/bootstrap.scss'; 
 
 
+#critics-section{
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
 .master-container{
     width:75%;
     margin: 0 auto;
@@ -59,7 +64,7 @@
 //featured-card
 
 .featured_card{
-    width:90%;
+    width:92%;
     height: 95%;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.04) 21%, rgba(0,0,0,0.74) 67%, rgba(5,5,5,1) 90%), url('../assets/img/testimonial2-2x.jpg');
@@ -158,4 +163,5 @@
 
 .company:hover{
     color: $Saffron;
+    cursor: pointer;
 }

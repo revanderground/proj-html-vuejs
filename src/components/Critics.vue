@@ -1,5 +1,5 @@
 <template>
-  <div class="critics-section mb-5">
+  <div id="critics-section">
 
     <div class="master-container mt-5 px-4">
 
