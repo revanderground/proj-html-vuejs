@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./styles/viarables.scss";
+@import "./styles/variables.scss";
 
 * {
     box-sizing: border-box;

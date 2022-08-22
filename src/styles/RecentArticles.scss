@@ -1,11 +1,10 @@
-@import './viarables.scss';
+@import './variables.scss';
 @import '~bootstrap/scss/bootstrap.scss'; 
 
 
 #recent-articles{
-    margin-bottom: 50px;
     margin-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 15px;
     background-color: #FEF7E9;
     height: 100%;

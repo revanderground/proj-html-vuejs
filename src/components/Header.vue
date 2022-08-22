@@ -127,37 +127,27 @@ export default {
         return {
             navbarElements: [
                 {
-                    text: 'Home',
+                    text: 'Latest Books',
                     url: '#',
                     current: true,
                 },
                 {
-                    text: 'About Me',
+                    text: 'Upcoming events',
                     url: '#',
                     current: false,
                 },
                 {
-                    text: 'Testimonials',
+                    text: 'Recent Articles',
                     url: '#',
                     current: false,
                 },
                 {
-                    text: 'My Blog',
+                    text: 'Business enquiries',
                     url: '#',
                     current: false,
                 },
                 {
-                    text: 'Meetups',
-                    url: '#',
-                    current: false,
-                },
-                {
-                    text: 'Shops',
-                    url: '#',
-                    current: false,
-                },
-                {
-                    text: 'Contact Me', 
+                    text: 'Visit my foundation',
                     url: '#',
                     current: false,
                 },
@@ -174,7 +164,7 @@ export default {
 <style lang="scss" scoped>
 
     @import '../styles/style.scss'; 
-    @import '../styles/viarables.scss';
+    @import '../styles/variables.scss';
     @import '../styles/Header.scss'
  
     
