@@ -7,6 +7,7 @@
     border-style: solid;
     background-size: cover;
     height: 400px;
+    position: relative;
   
 }
 
@@ -85,4 +86,14 @@ li{
 
 .copyright-text{
     padding-top: 90px;
+}
+
+.icon-up{
+    color:rgb(212, 212, 212);
+    padding: 5px 12px;
+    background-color: rgb(43, 43, 43);
+    height:12px;
+    position:absolute;
+    right: 50px;
+
 }

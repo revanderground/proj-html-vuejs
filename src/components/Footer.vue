@@ -59,7 +59,7 @@
                     </ul>
 
                     <div class="footer-text text-center copyright-text white">© Copyright 2012 - 2022 | Avada Theme by <a class="link-text grey" href="http://theme-fusion.com/">ThemeFusion</a> | All Rights Reserved | Powered by <a class="link-text grey" href="http://wordpress.org/">Wordpress</a></div>
-                        
+                    <a href="#header"><div class="back-to-top"><i class="icon-up fa-solid fa-angle-up"></i></div></a>    
 
                 </div>
                 
